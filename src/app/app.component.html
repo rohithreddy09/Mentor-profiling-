@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">COMPANY</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                  <li class="nav-item">
+                    <a class="nav-link active" routerLink="home" routerLinkActive="active" aria-current="page">HOME</a>
+                  </li>
+                  <li><a href="#">OPTION2</a></li>
+                    <li><a href="#">OPTION3</a></li>
+                    <li><a href="#">OPTION4</a></li>
+                    <li class="nav-item">
+                      <a class="nav-link active" routerLink="contact" routerLinkActive="active" aria-current="page">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            
+  
+  
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+
+                    </div>
+
+                
+                    <router-outlet></router-outlet>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
